@@ -1,0 +1,6 @@
+
+<div class="responsive" [ngClass]="{'selected-image' : isSelected}">
+    <p class="name">{{ name }}</p>
+    <img  class="img" [src]="url" height="200">
+    <p><button class="button" (click)="onSelectItem(id)" [disabled]="isSelected === true">{{search}}</button></p>
+  </div>

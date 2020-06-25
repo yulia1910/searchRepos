@@ -1,0 +1,110 @@
+.main{
+    font-size: 0.625rem;
+    width: 100%;
+    font-family: Heebo;
+}
+.placeHolder{
+    font-size: 0.825rem;
+}
+.input{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.word{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.title{
+    font-size:36px; 
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.button{
+    width: 100%;
+    background-color: rgb(76, 111, 175);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+.label{
+    font-size: 1.2rem;
+}
+.galery{
+    height: 300px;
+    width:80%;
+    margin: 0 auto;
+}
+.simple{
+width:25%;
+}
+.next{
+    /* float: left; */
+    cursor: pointer;
+    margin-left:30px;
+    /* width:20%; */
+    background-color: rgb(76, 111, 175);
+    color: white;
+    font-size: 1.4rem;
+}
+.prev{
+  /* float: right; */
+    cursor: pointer;
+    margin-right: 30px;
+    background-color: rgb(76, 111, 175);
+    color: white;
+    font-size: 1.4rem;
+   
+}
+.bdivp{
+    width:10%;
+    float: left;
+    align-items: center;
+    display: flex;
+}
+
+.bdivn{
+    width:10%;
+    align-items: center;
+    display: flex;
+}
+.result{
+    width:100%;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.show{
+
+    background-color: rgb(76, 111, 175);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.divShoWsAll{
+   display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}

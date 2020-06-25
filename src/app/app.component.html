@@ -1,0 +1,40 @@
+<div class="main">
+
+  <div class="title">{{ firstTitle }}</div>
+
+  <div class="input">
+    <p>
+      <label class="label" >{{ NameRepos }}</label>
+    <p>
+
+    <input class="word" type="text" [formControl]="name" placeholder="Enter KeyWord">
+  
+    <p>
+      <button class="button" (click)="searchBooks()">{{ Search }}</button>
+    </p>
+  </div>
+
+  <div class="divShoWsAll" *ngIf="isShow">
+    <button class="show" (click)="showAll()">{{show}}</button>
+  </div>
+
+
+  <div class="result" *ngIf="isShow">
+    <div class="bdivp"><button class="prev" (click)="prev()"> < </button></div>
+    
+    <div class="galery" >
+        
+      <app-simple-book-mark *ngFor="let item of visibleItemsArr;" 
+          class="simple" [name]="item.name" [url]="item.urlOwner" [id]="item.id"
+          [isSelected]="item.isSelected" (selectItem) = "selectItemEvent($event)">
+      </app-simple-book-mark>
+    
+    </div>
+
+    <div  class="bdivn"><button class="next" (click)="next()"> > </button></div>
+
+
+  </div>
+
+ 
+</div>
